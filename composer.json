@@ -1,0 +1,30 @@
+{
+    "name": "confrariaweb/laravel-schedule-create-task",
+    "description": "Motor para todos os componentes",
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
+    "license": "MIT",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Rafael Zingano",
+            "email": "confrariaweb@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ConfrariaWeb\\ScheduleCreateTask\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ConfrariaWeb\\ScheduleCreateTask\\Providers\\ScheduleCreateTaskServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
