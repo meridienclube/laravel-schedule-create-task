@@ -9,7 +9,7 @@ class ScheduleCreateTaskServiceProvider extends ServiceProvider
 
     public function boot()
     {
-
+        $this->loadViewsFrom(__DIR__ . '/../Views', 'schedule_create_task');
     }
 
     public function register()
